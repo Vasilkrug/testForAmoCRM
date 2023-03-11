@@ -1,0 +1,16 @@
+.logo {
+    max-width: 140px;
+    padding-top: 11px;
+    margin-right: 52px;
+}
+
+.logo-img {
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+}

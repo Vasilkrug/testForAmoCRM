@@ -1,1 +1,136 @@
+.App {
+    max-width: 1140px;
+    margin: 0 auto;
+    color: #E4E5EA;
+    font-family: 'Inter', sans-serif;
+}
 
+.main {
+    margin-bottom: 124px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 362px;
+    margin-bottom: 30px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1 span {
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-weight: 900;
+    font-size: inherit;
+    display: inline-block;
+}
+
+
+.description p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 275px;
+}
+
+.info {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 291px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.info h2 span {
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 1139px) {
+    .App {
+        max-width: 376px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .hero-section .red-ball {
+        width: 28px;
+        height: 28px;
+        bottom: 5%;
+        left: 61%;
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        filter: blur(2px);
+    }
+
+    .hero-section .red-light {
+        background: #961A1A;
+        top: 0;
+        left: -20%;
+    }
+}
+
+@media (max-width: 1139px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .main {
+        padding: 50px 15px;
+        margin-bottom: 0;
+        background-image: url("./assets/noise.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .info {
+        align-items: flex-start;
+    }
+
+    .info h2 {
+        text-align: left;
+    }
+
+    .mobile-none {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h1 span {
+        display: block;
+    }
+}

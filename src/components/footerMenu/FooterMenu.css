@@ -1,0 +1,14 @@
+.footer-menu-list {
+    display: flex;
+    gap: 51px;
+}
+
+.footer-menu h3 {
+    color: #656566;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

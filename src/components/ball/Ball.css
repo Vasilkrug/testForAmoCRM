@@ -1,0 +1,7 @@
+.ball {
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    backdrop-filter: blur(2px);
+}

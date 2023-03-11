@@ -1,0 +1,11 @@
+.contacts {
+    display: flex;
+    padding-top: 15px;
+    margin-left: auto;
+}
+
+.phone {
+    margin-right: 47px;
+}
+
+

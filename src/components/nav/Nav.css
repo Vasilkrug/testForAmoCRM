@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    padding-top: 15px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 1139px) {
+    .nav {
+        padding: 20px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        margin: 0 auto;
+    }
+
+}
