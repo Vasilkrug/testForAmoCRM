@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/testForAmoCRM/static/css/main.e3cba55b.css",
+    "main.js": "/testForAmoCRM/static/js/main.21555483.js",
+    "static/media/noise.png": "/testForAmoCRM/static/media/noise.69b1458aaac99b58007b.png",
+    "index.html": "/testForAmoCRM/index.html",
+    "main.e3cba55b.css.map": "/testForAmoCRM/static/css/main.e3cba55b.css.map",
+    "main.21555483.js.map": "/testForAmoCRM/static/js/main.21555483.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3cba55b.css",
+    "static/js/main.21555483.js"
+  ]
+}
